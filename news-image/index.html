@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+          integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="index.css">
+  <title>Sample</title>
+</head>
+<body>
+
+<div class="container">
+
+  <section class="section">
+    <h4>debug</h4>
+    <label class="debugTextarea">
+      <textarea class="debugTextarea js-debugTextarea"></textarea>
+    </label>
+  </section>
+
+  <section class="section">
+    <h4>input</h4>
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Please Enter Url...">
+      <span class="input-group-btn">
+        <button class="btn btn-secondary js-submit" type="button">Submit</button>
+      </span>
+    </div>
+  </section>
+
+  <section class="section">
+    <h4>js result</h4>
+    <div class="js-jsResult"></div>
+  </section>
+
+  <section class="section">
+    <h4>result list</h4>
+    <div class="js-resultList"></div>
+  </section>
+
+  <section class="section">
+    <h4>result detail</h4>
+    <div class="js-resultDetail"></div>
+  </section>
+</div>
+
+<div class="template js-template">
+  <ul class="feedList">
+    <li class="js-listItem">
+      <a href="" class="feedList-item js-listItem-link">
+        <div class="feedItem">
+          <h5 class="">hoge</h5>
+          <h5 class="feedItem-description">fuga...</h5>
+        </div>
+      </a>
+    </li>
+  </ul>
+</div>
+<script src="index.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

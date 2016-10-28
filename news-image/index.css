@@ -1,0 +1,48 @@
+.section:not(:last-child) {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.container {
+  width: 980px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.debugTextarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  width: 100%;
+}
+
+/* feed item */
+.feedList {
+  list-style: none;
+  margin:0;
+}
+
+.feedList-item {
+  display: block;
+  list-style: none;
+  padding: 15px;
+  border:1px solid #ddd;
+  color: inherit;
+}
+.feedItem:hover{
+  text-decoration: none;
+}
+
+.feedItem-title {
+  display: inline-block;
+  width:100%;
+  font-weight: bold;
+  color: #222;
+}
+
+.feedItem-description {
+  color: #aaa;
+}
