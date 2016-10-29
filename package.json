@@ -1,0 +1,31 @@
+{
+  "name": "spa-sample",
+  "version": "0.1.0",
+  "description": "sample of spa",
+  "main": "index.js",
+  "scripts": {
+    "dist": "npm-run-all cpx:**",
+    "cpx:jquery": "cpx ./news-jquery-sample/**/*.* ./public/news-jquery -v",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isoppp/spa-sample.git"
+  },
+  "keywords": [
+    "very",
+    "simple",
+    "spa",
+    "samples"
+  ],
+  "author": "isoppp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isoppp/spa-sample/issues"
+  },
+  "homepage": "https://github.com/isoppp/spa-sample#readme",
+  "devDependencies": {
+    "cpx": "^1.5.0",
+    "npm-run-all": "^3.1.1"
+  }
+}
