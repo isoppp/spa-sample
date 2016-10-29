@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Developers.IO</title>
+	<atom:link href="http://dev.classmethod.jp/feed/" rel="self" type="application/rss+xml" />
+	<link>http://dev.classmethod.jp</link>
+	<description>AWS/iOS技術者の必読メディア：クラスメソッド株式会社ブログ</description>
+	<lastBuildDate>Fri, 28 Oct 2016 06:19:34 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.4.2</generator>
+	<item>
+		<title>(レポート)[ServerlessConf London] 「Real-time Data Processing Using AWS Lambda」 #serverlessconf</title>
+		<link>http://dev.classmethod.jp/cloud/aws/serverlessconf-london-real-time-data-processing-using-aws/</link>
+		<comments>http://dev.classmethod.jp/cloud/aws/serverlessconf-london-real-time-data-processing-using-aws/#respond</comments>
+		<pubDate>Fri, 28 Oct 2016 06:06:45 +0000</pubDate>
+		<dc:creator><![CDATA[irbbb]]></dc:creator>
+				<category><![CDATA[AWS]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=223402</guid>
+		<description><![CDATA[はじめに 本レポートは2016年10月27日(木)に開催されたServerlessConf Londonのセッション「Real-time Data Processing Using AWS Lambda」のレポートです。 [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/cloud/aws/serverlessconf-london-real-time-data-processing-using-aws/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>CloudFormationでMarketplaceのAMIを使う時のたった１つの注意点</title>
+		<link>http://dev.classmethod.jp/cloud/aws/cloudformation-marketplace/</link>
+		<comments>http://dev.classmethod.jp/cloud/aws/cloudformation-marketplace/#respond</comments>
+		<pubDate>Fri, 28 Oct 2016 05:51:01 +0000</pubDate>
+		<dc:creator><![CDATA[市田善久]]></dc:creator>
+				<category><![CDATA[AWS]]></category>
+		<category><![CDATA[CloudFormation]]></category>
+		<category><![CDATA[Marketplace]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=223470</guid>
+		<description><![CDATA[こんにちわ。定期的にプレバンをチェックするのが日課のガノタ市田です。 今回は、CloudFormationの小ネタです。 とある対応でCloudFormationで環境を作ろうした際、構文やパラメータに誤りは無いのに実行 [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/cloud/aws/cloudformation-marketplace/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>YAMLのエイリアスでAnsibleファイルの重複を減らす</title>
+		<link>http://dev.classmethod.jp/server-side/ansible/refactoring_ansible_yaml_using_alias_and_anchor/</link>
+		<comments>http://dev.classmethod.jp/server-side/ansible/refactoring_ansible_yaml_using_alias_and_anchor/#respond</comments>
+		<pubDate>Fri, 28 Oct 2016 05:48:41 +0000</pubDate>
+		<dc:creator><![CDATA[渡辺 修司]]></dc:creator>
+				<category><![CDATA[Ansible]]></category>
+		<category><![CDATA[YAML]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=223460</guid>
+		<description><![CDATA[渡辺です。 あまり知られていないかもしれませんが、YAMLでは標準機能としてアンカーとエイリアスがあります。 Ansibleでも利用できるため、構成管理を行う場合に役立つので紹介したいと思います。 冗長化した値を一括管理 [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/server-side/ansible/refactoring_ansible_yaml_using_alias_and_anchor/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>(レポート)[ServerlessConf London] キーノート「Serverless is More」 #serverlessconf</title>
+		<link>http://dev.classmethod.jp/cloud/aws/serverlessconf-london-patrick-debois/</link>
+		<comments>http://dev.classmethod.jp/cloud/aws/serverlessconf-london-patrick-debois/#respond</comments>
+		<pubDate>Fri, 28 Oct 2016 03:55:03 +0000</pubDate>
+		<dc:creator><![CDATA[irbbb]]></dc:creator>
+				<category><![CDATA[AWS]]></category>
+		<category><![CDATA[Patrick Debois]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=223389</guid>
+		<description><![CDATA[はじめに 本レポートは2016年10月27日(木)に開催されたServerlessConf Londonのキーノート"Serverless is More(more or less)"のレポートです。 本セッションのスピ [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/cloud/aws/serverlessconf-london-patrick-debois/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>TerraformでAmazon EMR クラスターを構築</title>
+		<link>http://dev.classmethod.jp/cloud/create-amazon-emr-cluster-with-terraform/</link>
+		<comments>http://dev.classmethod.jp/cloud/create-amazon-emr-cluster-with-terraform/#respond</comments>
+		<pubDate>Fri, 28 Oct 2016 02:40:39 +0000</pubDate>
+		<dc:creator><![CDATA[八幡豊]]></dc:creator>
+				<category><![CDATA[AWS]]></category>
+		<category><![CDATA[クラウド]]></category>
+		<category><![CDATA[ツール]]></category>
+		<category><![CDATA[EMR]]></category>
+		<category><![CDATA[Terraform]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=223430</guid>
+		<description><![CDATA[今月初めにリリースされたv0.7.5でTerraformがAmazon EMRに対応しました。2015年の5月には機能追加の要望が挙がっていたので、1年以上越しで機能追加が実現された形です。 Amazon EMR関連のリ [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/cloud/create-amazon-emr-cluster-with-terraform/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>「『softでもhardでもHEADとブランチを付けたまま』――git resetで作業の取り消し」を＠ITに寄稿しました。</title>
+		<link>http://dev.classmethod.jp/writing/at-it-git-2016-6/</link>
+		<comments>http://dev.classmethod.jp/writing/at-it-git-2016-6/#respond</comments>
+		<pubDate>Fri, 28 Oct 2016 00:06:12 +0000</pubDate>
+		<dc:creator><![CDATA[平屋真吾]]></dc:creator>
+		
+		<guid isPermaLink="false">http://dev.classmethod.jp/?post_type=writing&#038;p=223410</guid>
+		<description><![CDATA[「『softでもhardでもHEADとブランチを付けたまま』――git resetで作業の取り消し」を＠ITに寄稿しました。 本連載では、バージョン管理システム「Git」とGitのホスティングサービスの1つ「GitHub [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/writing/at-it-git-2016-6/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>[2016版] Amazon EC2 購入オプションを理解する [コストダウン]</title>
+		<link>http://dev.classmethod.jp/cloud/aws/amazon-ec2-cost-down-2016/</link>
+		<comments>http://dev.classmethod.jp/cloud/aws/amazon-ec2-cost-down-2016/#respond</comments>
+		<pubDate>Thu, 27 Oct 2016 09:25:40 +0000</pubDate>
+		<dc:creator><![CDATA[菊池修治]]></dc:creator>
+				<category><![CDATA[AWS]]></category>
+		<category><![CDATA[EC2]]></category>
+		<category><![CDATA[reserved instance]]></category>
+		<category><![CDATA[SpotInstance]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=223373</guid>
+		<description><![CDATA[こんにちは菊池です。 サーバレスが話題になっている昨今ですが、AWSを始めるにあたって最も導入しやすいのがEC2です。一方で、EC2はもっとも費用がかさみやすいサービスでもあります。AWS利用料の大半を占めることが多いE [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/cloud/aws/amazon-ec2-cost-down-2016/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>AnsibleによるEC2インスタンスの構築</title>
+		<link>http://dev.classmethod.jp/server-side/ansible/ec2_using_ansible/</link>
+		<comments>http://dev.classmethod.jp/server-side/ansible/ec2_using_ansible/#respond</comments>
+		<pubDate>Thu, 27 Oct 2016 08:07:57 +0000</pubDate>
+		<dc:creator><![CDATA[渡辺 修司]]></dc:creator>
+				<category><![CDATA[Ansible]]></category>
+		<category><![CDATA[EC2]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=223379</guid>
+		<description><![CDATA[渡辺です。 過去にも同様のエントリーが存在するのですが、AWSといえばEC2ということで、最新のAWSモジュールを利用してEC2インスタンスを作成してみます。 Ansibleを使ってEC2インスタンスを立ち上げる ｜ D [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/server-side/ansible/ec2_using_ansible/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>2016/11/25(金)：「ユーザー事例に学ぶ ～モバイルファーストが切り拓くマーケティング戦略～」を開催します</title>
+		<link>http://dev.classmethod.jp/news/20161125/</link>
+		<comments>http://dev.classmethod.jp/news/20161125/#respond</comments>
+		<pubDate>Thu, 27 Oct 2016 07:07:44 +0000</pubDate>
+		<dc:creator><![CDATA[クラスメソッド公式アカウント]]></dc:creator>
+		
+		<guid isPermaLink="false">http://dev.classmethod.jp/?post_type=news&#038;p=222951</guid>
+		<description><![CDATA[テクノロジーの発展に合わせて、お客様とのコミュニケーションのあり方が大きく変わりつつあります。モバイルは、お客様の身近にある最も深く繋がることができるツールであり、その重要性は増すばかりです。 本セミナーでは、無印良品で [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/news/20161125/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Sophos SAVDIでウイルス検索をしてみた</title>
+		<link>http://dev.classmethod.jp/cloud/aws/savdi/</link>
+		<comments>http://dev.classmethod.jp/cloud/aws/savdi/#respond</comments>
+		<pubDate>Thu, 27 Oct 2016 05:30:28 +0000</pubDate>
+		<dc:creator><![CDATA[阿部 洸樹]]></dc:creator>
+				<category><![CDATA[AWS]]></category>
+		<category><![CDATA[セキュリティ]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=220771</guid>
+		<description><![CDATA[はじめに Sophos SAV Dynamic Interface (SAVDI) をご紹介します。 SAVDIはファイルをアップロードするようなシステムと相性の良いウイルスチェック用APIです。 ファイルアップローダー [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/cloud/aws/savdi/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>[イベント告知]  12/14(水)『CM re:Growth 2016 SAPPORO【re:Invent 復習SP】』を開催します！ #cmdevio</title>
+		<link>http://dev.classmethod.jp/news/regrowth-2016-sapporo/</link>
+		<comments>http://dev.classmethod.jp/news/regrowth-2016-sapporo/#respond</comments>
+		<pubDate>Wed, 26 Oct 2016 23:35:30 +0000</pubDate>
+		<dc:creator><![CDATA[佐々木 大輔]]></dc:creator>
+		
+		<guid isPermaLink="false">http://dev.classmethod.jp/?post_type=news&#038;p=222342</guid>
+		<description><![CDATA[イベント参加申込はこちら 2013年から毎年開催している、クラスメソッドのAWS re:Inventフォローアップイベント、Developers. IO CM re:Growth。今年も開催します！ CM re:Grow [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/news/regrowth-2016-sapporo/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>[イベント告知]  12/12(月)『CM re:Growth 2016 OSAKA【re:Invent 復習SP】』を開催します！ #cmdevio</title>
+		<link>http://dev.classmethod.jp/news/regrowth-2016-osaka/</link>
+		<comments>http://dev.classmethod.jp/news/regrowth-2016-osaka/#respond</comments>
+		<pubDate>Wed, 26 Oct 2016 23:34:12 +0000</pubDate>
+		<dc:creator><![CDATA[佐々木 大輔]]></dc:creator>
+		
+		<guid isPermaLink="false">http://dev.classmethod.jp/?post_type=news&#038;p=222339</guid>
+		<description><![CDATA[イベント参加申込はこちら 2013年から毎年開催している、クラスメソッドのAWS re:Inventフォローアップイベント、Developers. IO CM re:Growth。今年は大阪で初開催いたします！ CM r [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/news/regrowth-2016-osaka/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>[イベント告知]  12/6(火)『CM re:Growth 2016 TOKYO【re:Invent 復習SP】』を開催します！ #cmdevio</title>
+		<link>http://dev.classmethod.jp/news/regrowth-2016-tokyo/</link>
+		<comments>http://dev.classmethod.jp/news/regrowth-2016-tokyo/#respond</comments>
+		<pubDate>Wed, 26 Oct 2016 23:32:49 +0000</pubDate>
+		<dc:creator><![CDATA[佐々木 大輔]]></dc:creator>
+		
+		<guid isPermaLink="false">http://dev.classmethod.jp/?post_type=news&#038;p=222335</guid>
+		<description><![CDATA[イベント参加申込はこちら 2013年から毎年開催している、クラスメソッドのAWS re:Inventフォローアップイベント、Developers. IO CM re:Growth。今年もいたします！ CM re:Grow [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/news/regrowth-2016-tokyo/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>11/21(月) クラスメソッド会社説明会【大阪編】を開催します</title>
+		<link>http://dev.classmethod.jp/news/job-fair-2016-1121-osaka/</link>
+		<comments>http://dev.classmethod.jp/news/job-fair-2016-1121-osaka/#respond</comments>
+		<pubDate>Wed, 26 Oct 2016 23:32:44 +0000</pubDate>
+		<dc:creator><![CDATA[佐々木 大輔]]></dc:creator>
+		
+		<guid isPermaLink="false">http://dev.classmethod.jp/?post_type=news&#038;p=222793</guid>
+		<description><![CDATA[お申し込みはこちら 会社説明会の目的 2016年6月よりクラスメソッドの大阪オフィスが本格稼働しました。 [クラスメソッド]大阪オフィス本格稼働開始しました まだ立ち上がったばかりですが、西日本エリアのお客様のコンサルテ [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/news/job-fair-2016-1121-osaka/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>GitHub EnterpriseをAWSで使おう &#8211; Amazon SESを利用したEmail Notificationの設定</title>
+		<link>http://dev.classmethod.jp/cloud/aws/github-enterprise-on-aws-3/</link>
+		<comments>http://dev.classmethod.jp/cloud/aws/github-enterprise-on-aws-3/#respond</comments>
+		<pubDate>Wed, 26 Oct 2016 23:00:37 +0000</pubDate>
+		<dc:creator><![CDATA[中山 幸治]]></dc:creator>
+				<category><![CDATA[AWS]]></category>
+		<category><![CDATA[Amazon SES]]></category>
+		<category><![CDATA[github]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=223087</guid>
+		<description><![CDATA[はじめに こんにちは、中山です。 GitHub Enterprise(以下GHE) on AWSシリーズの第3弾です。今回はAmazon SESを利用したEmail Notificationの設定についてご紹介します。  [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/cloud/aws/github-enterprise-on-aws-3/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Elastic StackのX-Packを試す（Reporting編）</title>
+		<link>http://dev.classmethod.jp/server-side/elasticsearch/elastic-stack-x-pack-reporting/</link>
+		<comments>http://dev.classmethod.jp/server-side/elasticsearch/elastic-stack-x-pack-reporting/#respond</comments>
+		<pubDate>Wed, 26 Oct 2016 21:30:30 +0000</pubDate>
+		<dc:creator><![CDATA[藤本 真司]]></dc:creator>
+				<category><![CDATA[Elasticsearch]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=222498</guid>
+		<description><![CDATA[検証時の X-Pack はrc1です。 GAリリース時は仕様が変わっている可能性もございますのでご注意ください。 こんにちは、藤本です。 Elastic Stack もrc1までリリースされました。これからはGAリリース [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/server-side/elasticsearch/elastic-stack-x-pack-reporting/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>【クラスメソッド会社説明会】データインテグレーション部 11月21日(月)</title>
+		<link>http://dev.classmethod.jp/news/di-division-information-session-20161121/</link>
+		<comments>http://dev.classmethod.jp/news/di-division-information-session-20161121/#respond</comments>
+		<pubDate>Wed, 26 Oct 2016 16:14:04 +0000</pubDate>
+		<dc:creator><![CDATA[甲木 洋介]]></dc:creator>
+		
+		<guid isPermaLink="false">http://dev.classmethod.jp/?post_type=news&#038;p=223288</guid>
+		<description><![CDATA[00 00 00 00 DAYS HOURS MINUTES SECONDS お申し込みはこちら 本説明会について クラスメソッド株式会社のデータインテグレーション部、通称DI部についての会社説明会を実施します。 DI部 [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/news/di-division-information-session-20161121/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>【クラスメソッド会社説明会】データインテグレーション部 11月18日(金)</title>
+		<link>http://dev.classmethod.jp/news/di-division-information-session-20161118/</link>
+		<comments>http://dev.classmethod.jp/news/di-division-information-session-20161118/#respond</comments>
+		<pubDate>Wed, 26 Oct 2016 16:13:59 +0000</pubDate>
+		<dc:creator><![CDATA[甲木 洋介]]></dc:creator>
+		
+		<guid isPermaLink="false">http://dev.classmethod.jp/?post_type=news&#038;p=223106</guid>
+		<description><![CDATA[00 00 00 00 DAYS HOURS MINUTES SECONDS お申し込みはこちら 本説明会について クラスメソッド株式会社のデータインテグレーション部、通称DI部についての会社説明会を実施します。 DI部 [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/news/di-division-information-session-20161118/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>[イベント告知]「Geek Women Japan 2016」のおしらせ</title>
+		<link>http://dev.classmethod.jp/news/geek-women-japan-2016/</link>
+		<comments>http://dev.classmethod.jp/news/geek-women-japan-2016/#respond</comments>
+		<pubDate>Wed, 26 Oct 2016 12:56:56 +0000</pubDate>
+		<dc:creator><![CDATA[take3000]]></dc:creator>
+		
+		<guid isPermaLink="false">http://dev.classmethod.jp/?post_type=news&#038;p=223250</guid>
+		<description><![CDATA[こんにちは。マーケティングとかを担当している take3000 です。好きなGacharic SpinはTOMO-ZOです。 11/3(木)祝日に「Geek Women Japan 2016」というイベントが開催されるそ [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/news/geek-women-japan-2016/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>[Redshift][PostgreSQL] WITH句を使ってSQLをシンプルに。</title>
+		<link>http://dev.classmethod.jp/server-side/db/redshift-postgresql-with/</link>
+		<comments>http://dev.classmethod.jp/server-side/db/redshift-postgresql-with/#respond</comments>
+		<pubDate>Wed, 26 Oct 2016 12:49:20 +0000</pubDate>
+		<dc:creator><![CDATA[takahara]]></dc:creator>
+				<category><![CDATA[データベース]]></category>
+		<category><![CDATA[初心者向け]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=222965</guid>
+		<description><![CDATA[はじめに 一時的なテーブルが欲しい場合、一時テーブルやサブクエリを利用する事があります。ただ、SQLが長くなったり分かり辛くなったりします。こういった場合はWITH句が有効な事があると教えてもらったので、使い方など調べた [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/server-side/db/redshift-postgresql-with/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Amazon LinuxのApache 2.4にSSL証明書を設定してみた</title>
+		<link>http://dev.classmethod.jp/cloud/aws/amazonlinux-apache24-ssl/</link>
+		<comments>http://dev.classmethod.jp/cloud/aws/amazonlinux-apache24-ssl/#respond</comments>
+		<pubDate>Wed, 26 Oct 2016 12:47:59 +0000</pubDate>
+		<dc:creator><![CDATA[清水俊也]]></dc:creator>
+				<category><![CDATA[AWS]]></category>
+		<category><![CDATA[セキュリティ]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=223200</guid>
+		<description><![CDATA[はじめに 清水です。 先日、Amazon Linux上のApache 2.4にSSL証明書を設定する機会がありました。 これまでCloudFrontやELBなどへの証明書設定（インストール）は行ったことがありましたが、A [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/cloud/aws/amazonlinux-apache24-ssl/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Amazon VPC IPアドレス設計レシピ</title>
+		<link>http://dev.classmethod.jp/cloud/aws/vpc-cidr/</link>
+		<comments>http://dev.classmethod.jp/cloud/aws/vpc-cidr/#respond</comments>
+		<pubDate>Wed, 26 Oct 2016 09:00:27 +0000</pubDate>
+		<dc:creator><![CDATA[阿部 洸樹]]></dc:creator>
+				<category><![CDATA[AWS]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=223134</guid>
+		<description><![CDATA[はじめに AWSにはEC2やRDS、RedshiftなどVPCに対応したサービスが数多くあります。 これらのサービスを利用する場合、まずはVPCやサブネットを作成します。 VPCの作成ではIPアドレス(=CIDR)に何を [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/cloud/aws/vpc-cidr/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Packer実行エラー時にインスタンスをTerminateさせない機能がリリースされました</title>
+		<link>http://dev.classmethod.jp/cloud/aws/packer-abort-termination/</link>
+		<comments>http://dev.classmethod.jp/cloud/aws/packer-abort-termination/#respond</comments>
+		<pubDate>Wed, 26 Oct 2016 07:47:00 +0000</pubDate>
+		<dc:creator><![CDATA[望月 政夫]]></dc:creator>
+				<category><![CDATA[AWS]]></category>
+		<category><![CDATA[EC2]]></category>
+		<category><![CDATA[packer]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=223156</guid>
+		<description><![CDATA[2016/10/21に、Packerの新しいバージョン 0.11.0 がリリースされました。 packer/CHANGELOG.md at master · mitchellh/packer このリリース内に、個人的に非 [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/cloud/aws/packer-abort-termination/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>サブ要素をループするAnsibleのwith_subelements</title>
+		<link>http://dev.classmethod.jp/server-side/ansible/looping_over_subelements/</link>
+		<comments>http://dev.classmethod.jp/server-side/ansible/looping_over_subelements/#respond</comments>
+		<pubDate>Wed, 26 Oct 2016 06:48:05 +0000</pubDate>
+		<dc:creator><![CDATA[渡辺 修司]]></dc:creator>
+				<category><![CDATA[Ansible]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=223132</guid>
+		<description><![CDATA[渡辺です。 AnsibleのPlaybookやRoleの再利用性を高めるためには、綺麗なグループ変数定義を目標とし、タスク定義でゴニョゴニョするのが基本です。 今回は、こんなグループ変数に役立つwith_subeleme [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/server-side/ansible/looping_over_subelements/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>「AKIBA.swift 第6回」を開催しました！ #akibaswift</title>
+		<link>http://dev.classmethod.jp/smartphone/akiba-swift-6/</link>
+		<comments>http://dev.classmethod.jp/smartphone/akiba-swift-6/#respond</comments>
+		<pubDate>Wed, 26 Oct 2016 02:46:05 +0000</pubDate>
+		<dc:creator><![CDATA[平屋真吾]]></dc:creator>
+				<category><![CDATA[iPhone]]></category>
+		<category><![CDATA[スマートフォン]]></category>
+		<category><![CDATA[勉強会]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=223083</guid>
+		<description><![CDATA[はじめに こんにちは。モバイルアプリサービス部の平屋です。 2016/10/25 に「AKIBA.swift 第6回」を開催しました。本記事ではイベントの内容をレポートしていきます。 イベント概要 AKIBA.swift [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/smartphone/akiba-swift-6/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Amazon Redshift: 新しいデータ型『タイムゾーン付きタイムスタンプ(TIMESTAMPTZ)』をつかってみた。</title>
+		<link>http://dev.classmethod.jp/cloud/amazon-redshift-use-timestamptz/</link>
+		<comments>http://dev.classmethod.jp/cloud/amazon-redshift-use-timestamptz/#respond</comments>
+		<pubDate>Wed, 26 Oct 2016 01:12:30 +0000</pubDate>
+		<dc:creator><![CDATA[梶原裕]]></dc:creator>
+				<category><![CDATA[AWS]]></category>
+		<category><![CDATA[クラウド]]></category>
+		<category><![CDATA[ビッグデータ]]></category>
+		<category><![CDATA[Amazon Redshift]]></category>
+		<category><![CDATA[Redshift]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=222956</guid>
+		<description><![CDATA[はじめに 好物はインフラとフロントエンドのかじわらゆたかです。 以前しんやの記事でRedsshiftにタイムゾーン付きタイムスタンプ型が使用可能になったと言ったエントリがあがりました。こちら弊社の開発環境にも適用されたの [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/cloud/amazon-redshift-use-timestamptz/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>GitHub EnterpriseをAWSで使おう &#8211; マネジメントコンソール編</title>
+		<link>http://dev.classmethod.jp/cloud/aws/github-enterprise-on-aws-2/</link>
+		<comments>http://dev.classmethod.jp/cloud/aws/github-enterprise-on-aws-2/#respond</comments>
+		<pubDate>Tue, 25 Oct 2016 23:00:55 +0000</pubDate>
+		<dc:creator><![CDATA[中山 幸治]]></dc:creator>
+				<category><![CDATA[AWS]]></category>
+		<category><![CDATA[github]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=222578</guid>
+		<description><![CDATA[はじめに こんにちは、中山です。 GitHub Enterprise(以下GHE) on AWSシリーズの第2弾です。1回目はAWSへのインストール方法を解説しました。まだ利用したことがない方は一度読んでみていただければ [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/cloud/aws/github-enterprise-on-aws-2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>RDS拡張モニタリングの値をDatadogで利用する</title>
+		<link>http://dev.classmethod.jp/cloud/aws/datadog-enhanced-rds-integration/</link>
+		<comments>http://dev.classmethod.jp/cloud/aws/datadog-enhanced-rds-integration/#respond</comments>
+		<pubDate>Tue, 25 Oct 2016 22:00:17 +0000</pubDate>
+		<dc:creator><![CDATA[虎塚]]></dc:creator>
+				<category><![CDATA[AWS]]></category>
+		<category><![CDATA[Datadog]]></category>
+		<category><![CDATA[RDS]]></category>
+		<category><![CDATA[監視]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=223065</guid>
+		<description><![CDATA[こんにちは、虎塚です。 今回は、DatadogでRDSを監視するために拡張RDSインテグレーションを有効にする手順を紹介します。 DatadogでのRDS監視 RDSのパフォーマンスデータをDatadogで利用するには、 [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/cloud/aws/datadog-enhanced-rds-integration/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>【レポート】Growth Hack Talks by Repro #2に参加して来ました！</title>
+		<link>http://dev.classmethod.jp/etc/growth-hack-talks-by-repro-2/</link>
+		<comments>http://dev.classmethod.jp/etc/growth-hack-talks-by-repro-2/#respond</comments>
+		<pubDate>Tue, 25 Oct 2016 17:43:03 +0000</pubDate>
+		<dc:creator><![CDATA[kobayashi]]></dc:creator>
+				<category><![CDATA[その他]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=223052</guid>
+		<description><![CDATA[こんにちは。アプリの運用を担当していますkobayashiです。 アプリのグロースハックについて楽しく語り合うMeetup、Growth Hack Talks by Repro #2に参加してきましたので、その様子をレポ [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/etc/growth-hack-talks-by-repro-2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>[watchOS 3] Apple Watch の Suica で改札をスマートに通る方法</title>
+		<link>http://dev.classmethod.jp/smartphone/watchos-3-apple-watch-suica/</link>
+		<comments>http://dev.classmethod.jp/smartphone/watchos-3-apple-watch-suica/#respond</comments>
+		<pubDate>Tue, 25 Oct 2016 13:24:19 +0000</pubDate>
+		<dc:creator><![CDATA[田中 圭介]]></dc:creator>
+				<category><![CDATA[iPhone]]></category>
+		<category><![CDATA[スマートフォン]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=223020</guid>
+		<description><![CDATA[Apple Watch で Suica！ とうとうこの日が来ましたね。 私も Apple Watch Series 2 に Suica を登録し、JR の改札を通ってきました。 ・・・良かったです！！ もうカードを持たな [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/smartphone/watchos-3-apple-watch-suica/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>[iOS 10] Apple Pay でアプリ、Webの支払いを試してみました</title>
+		<link>http://dev.classmethod.jp/smartphone/ios-10-apple-pay-app-web/</link>
+		<comments>http://dev.classmethod.jp/smartphone/ios-10-apple-pay-app-web/#respond</comments>
+		<pubDate>Tue, 25 Oct 2016 11:59:48 +0000</pubDate>
+		<dc:creator><![CDATA[ひめの]]></dc:creator>
+				<category><![CDATA[iPhone]]></category>
+		<category><![CDATA[スマートフォン]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=223015</guid>
+		<description><![CDATA[Apple Pay が利用可能に 2016年10月25日。 iOS 10.1 が配信され Apple Payが利用可能になりました。 今回はクレジットカードの登録後にアプリとWebで試してみました。 利用したサービスはこ [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/smartphone/ios-10-apple-pay-app-web/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>[iOS 10] WKWebViewのLink Preview APIについて</title>
+		<link>http://dev.classmethod.jp/smartphone/iphone/ios-10-wkwebview-link-preview-api/</link>
+		<comments>http://dev.classmethod.jp/smartphone/iphone/ios-10-wkwebview-link-preview-api/#respond</comments>
+		<pubDate>Tue, 25 Oct 2016 10:34:04 +0000</pubDate>
+		<dc:creator><![CDATA[加藤潤]]></dc:creator>
+				<category><![CDATA[iPhone]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=222996</guid>
+		<description><![CDATA[WKWebViewのリンクをPeek、Pop時の挙動がカスタマイズできるようになった iOS 9まではWWKWebViewのallowsLinkPreviewプロパティでプレビューをするかしないかの制御ができるくらいで、 [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/smartphone/iphone/ios-10-wkwebview-link-preview-api/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>[iOS 10] 時計デザインが黒くなった</title>
+		<link>http://dev.classmethod.jp/smartphone/iphone/ios-10-clockdesign/</link>
+		<comments>http://dev.classmethod.jp/smartphone/iphone/ios-10-clockdesign/#respond</comments>
+		<pubDate>Tue, 25 Oct 2016 06:02:21 +0000</pubDate>
+		<dc:creator><![CDATA[たなか ゆきこ]]></dc:creator>
+				<category><![CDATA[iPhone]]></category>
+		<category><![CDATA[デザイン]]></category>
+		<category><![CDATA[iOS]]></category>
+		<category><![CDATA[iOS 10]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=222933</guid>
+		<description><![CDATA[デザイナーの たなか ゆきこ です。 今回は iOS 10 で黒背景に変更になった「時計」について記載していきます。 なんで黒いのかの考察 アラームをみるのは、「いつ」という時間とその時間の環境を考慮してリデザインされた [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/smartphone/iphone/ios-10-clockdesign/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>[iOS 10] iOS 10.1がリリースされマップアプリから交通機関の経路が検索できるようになりました！</title>
+		<link>http://dev.classmethod.jp/smartphone/iphone/ios-10-route-search/</link>
+		<comments>http://dev.classmethod.jp/smartphone/iphone/ios-10-route-search/#respond</comments>
+		<pubDate>Tue, 25 Oct 2016 05:47:46 +0000</pubDate>
+		<dc:creator><![CDATA[おおはしりきたけ]]></dc:creator>
+				<category><![CDATA[iPhone]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=222904</guid>
+		<description><![CDATA[こんにちは！おおはしりきたけです。10/25日にiOS 10.1がリリースされましたね。このアップデートでマップアプリで以下のアップデートがありました。10.0までは、別途経路アプリを立ち上げて検索する必要がありましたが [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/smartphone/iphone/ios-10-route-search/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>[watchOS 3] watchOS アプリを Apple Pay に対応させるために必要な実装について</title>
+		<link>http://dev.classmethod.jp/smartphone/iphone/ios-10-applepay-for-developers-4/</link>
+		<comments>http://dev.classmethod.jp/smartphone/iphone/ios-10-applepay-for-developers-4/#respond</comments>
+		<pubDate>Tue, 25 Oct 2016 04:15:14 +0000</pubDate>
+		<dc:creator><![CDATA[平屋真吾]]></dc:creator>
+				<category><![CDATA[iPhone]]></category>
+		<category><![CDATA[Apple Pay]]></category>
+		<category><![CDATA[Apple Watch]]></category>
+		<category><![CDATA[watchOS]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=222897</guid>
+		<description><![CDATA[はじめに こんにちは。モバイルアプリサービス部の平屋です。前回の記事に引き続き、Apple Pay についての情報を紹介していきます。 本記事では watchOS アプリを Apple Pay に対応させる場合に必要な実 [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/smartphone/iphone/ios-10-applepay-for-developers-4/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Ansibleからaws cliを実行する</title>
+		<link>http://dev.classmethod.jp/server-side/ansible/using_aws-cli_in_ansible/</link>
+		<comments>http://dev.classmethod.jp/server-side/ansible/using_aws-cli_in_ansible/#respond</comments>
+		<pubDate>Tue, 25 Oct 2016 04:00:01 +0000</pubDate>
+		<dc:creator><![CDATA[渡辺 修司]]></dc:creator>
+				<category><![CDATA[Ansible]]></category>
+		<category><![CDATA[AWSCLI]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=222867</guid>
+		<description><![CDATA[渡辺です。 AnsibleによるAWSリソースの構成管理シリーズの5回目は、どうしても避けられない新機能のサポートに関わるトピックです。 AWSの新機能とツールのサポート時期 AWSでは毎週のように新機能がリリースされて [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/server-side/ansible/using_aws-cli_in_ansible/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Google Cloud Platformに東京リージョンが追加されたようです</title>
+		<link>http://dev.classmethod.jp/cloud/google-cloud-platform-tokyo/</link>
+		<comments>http://dev.classmethod.jp/cloud/google-cloud-platform-tokyo/#respond</comments>
+		<pubDate>Tue, 25 Oct 2016 03:19:23 +0000</pubDate>
+		<dc:creator><![CDATA[大瀧隆太]]></dc:creator>
+				<category><![CDATA[GCP]]></category>
+		<category><![CDATA[クラウド]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=222876</guid>
+		<description><![CDATA[[2016/10/25 17:50更新] Stackdriverが対応したようなので、説明を変更しました。 ども、大瀧です。 まだGoogle Cloud Platform Blogや公式Twitterなどでのアナウンス [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/cloud/google-cloud-platform-tokyo/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>GitHub EnterpriseをAWSで使おう &#8211; インストール編</title>
+		<link>http://dev.classmethod.jp/cloud/aws/github-enterprise-on-aws-1/</link>
+		<comments>http://dev.classmethod.jp/cloud/aws/github-enterprise-on-aws-1/#respond</comments>
+		<pubDate>Mon, 24 Oct 2016 23:00:51 +0000</pubDate>
+		<dc:creator><![CDATA[中山 幸治]]></dc:creator>
+				<category><![CDATA[AWS]]></category>
+		<category><![CDATA[github]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=222426</guid>
+		<description><![CDATA[はじめに こんにちは、中山です。 弊社のブログを読んでいる方の中にはGitHubを利用している方は多いと思います。もはやコード共有サービスとしてデファクトスタンダードと言って良いほど沢山のユーザから利用されているサービス [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/cloud/aws/github-enterprise-on-aws-1/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>AWS Configはとりあえず有効にしよう</title>
+		<link>http://dev.classmethod.jp/cloud/aws/aws-config-start/</link>
+		<comments>http://dev.classmethod.jp/cloud/aws/aws-config-start/#respond</comments>
+		<pubDate>Mon, 24 Oct 2016 15:03:43 +0000</pubDate>
+		<dc:creator><![CDATA[阿部 洸樹]]></dc:creator>
+				<category><![CDATA[AWS]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=222835</guid>
+		<description><![CDATA[はじめに 本記事では「AWS Configはとりあえず有効にする」事をおすすめしたいと思います。 設定はマネージドコンソールから行い、なるべくデフォルト値で行ってみます。 運用でよく発生するセキュリティグループの変更を例 [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/cloud/aws/aws-config-start/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>[iOS 10] PHFetchResult の enumerateObjects(_:) で Trailing Closure が使えない</title>
+		<link>http://dev.classmethod.jp/smartphone/iphone/ios-10-ph-fetch-result-enumerate-objects/</link>
+		<comments>http://dev.classmethod.jp/smartphone/iphone/ios-10-ph-fetch-result-enumerate-objects/#respond</comments>
+		<pubDate>Mon, 24 Oct 2016 08:51:58 +0000</pubDate>
+		<dc:creator><![CDATA[諏訪 悠紀]]></dc:creator>
+				<category><![CDATA[iPhone]]></category>
+		<category><![CDATA[iOS]]></category>
+		<category><![CDATA[Photos]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=222820</guid>
+		<description><![CDATA[Photos フレームワーク iOS デバイスに保存されている写真などのデータを取得するには、iOS 8 以降であれば Photos フレームワークを使う方法が一般的です。 [iOS 8] PhotoKit 2 &#82 [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/smartphone/iphone/ios-10-ph-fetch-result-enumerate-objects/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>[iOS 10] SFSafariViewControllerのバーの色を変更できるようになりました</title>
+		<link>http://dev.classmethod.jp/smartphone/iphone/ios-10-sfsafariviewcontroller-new-properties/</link>
+		<comments>http://dev.classmethod.jp/smartphone/iphone/ios-10-sfsafariviewcontroller-new-properties/#respond</comments>
+		<pubDate>Mon, 24 Oct 2016 08:18:05 +0000</pubDate>
+		<dc:creator><![CDATA[加藤潤]]></dc:creator>
+				<category><![CDATA[iPhone]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=222812</guid>
+		<description><![CDATA[iOS 9まで iOS 9までは以下のようにSFSafariViewControllerのViewプロパティのtintColorを設定することでバー（ツールバーなど）内のコントロールの色を変更することはできましたが、バー [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/smartphone/iphone/ios-10-sfsafariviewcontroller-new-properties/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>【ほぼ週刊Amazon Web Services】2016/10/17〜2016/10/23</title>
+		<link>http://dev.classmethod.jp/cloud/aws/hobo-aws-2016-10-17/</link>
+		<comments>http://dev.classmethod.jp/cloud/aws/hobo-aws-2016-10-17/#respond</comments>
+		<pubDate>Mon, 24 Oct 2016 07:19:56 +0000</pubDate>
+		<dc:creator><![CDATA[佐々木 大輔]]></dc:creator>
+				<category><![CDATA[AWS]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=222809</guid>
+		<description><![CDATA[今週のほぼエーをお届けします。 先週(2016年10月17日〜2016年10月23日)のAWS界隈 AWSアップデート ■Announcing the AWS US East (Ohio) Region 関連: Deve [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/cloud/aws/hobo-aws-2016-10-17/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>ElixirとPhoenixでWebSocketを使ったChatアプリケーションを作る</title>
+		<link>http://dev.classmethod.jp/server-side/chat-app-with-websocket-elixir-phoenix/</link>
+		<comments>http://dev.classmethod.jp/server-side/chat-app-with-websocket-elixir-phoenix/#respond</comments>
+		<pubDate>Mon, 24 Oct 2016 04:09:15 +0000</pubDate>
+		<dc:creator><![CDATA[かんあきひで]]></dc:creator>
+				<category><![CDATA[Elixir]]></category>
+		<category><![CDATA[サーバーサイド]]></category>
+		<category><![CDATA[言語]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=222713</guid>
+		<description><![CDATA[昨今のWebアプリケーションでは、クライアント、サーバが常時接続してメッセージ通信をすることが求められてきています (リアルタイムWebアプリケーションと呼ばれたりします)。 このアプリケーションには以下の特徴があります [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/server-side/chat-app-with-websocket-elixir-phoenix/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>AnsibleによるVPC Peering</title>
+		<link>http://dev.classmethod.jp/server-side/ansible/vpc-peering_using_ansible/</link>
+		<comments>http://dev.classmethod.jp/server-side/ansible/vpc-peering_using_ansible/#respond</comments>
+		<pubDate>Mon, 24 Oct 2016 01:54:07 +0000</pubDate>
+		<dc:creator><![CDATA[渡辺 修司]]></dc:creator>
+				<category><![CDATA[Ansible]]></category>
+		<category><![CDATA[VPC]]></category>
+		<category><![CDATA[VPCPeering]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=222786</guid>
+		<description><![CDATA[渡辺です。 今回は、VPC Peering関連のAnsibleのAWSモジュールを紹介します。 AWSではVPCがネットワークのベースとなり、VPCに幾つかのサブネットを作成し、リソースを配置することになります（一部、V [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/server-side/ansible/vpc-peering_using_ansible/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>オペレーションチーム合宿2016へ行ってきました</title>
+		<link>http://dev.classmethod.jp/etc/sugano-025-camp/</link>
+		<comments>http://dev.classmethod.jp/etc/sugano-025-camp/#respond</comments>
+		<pubDate>Sun, 23 Oct 2016 22:20:03 +0000</pubDate>
+		<dc:creator><![CDATA[菅野 昌孝]]></dc:creator>
+				<category><![CDATA[その他]]></category>
+		<category><![CDATA[勉強会]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=222760</guid>
+		<description><![CDATA[こんばんは、菅野です。 昨年に続き、上越妙高でオペレーションチームの合宿を行いました。 日程は10月21日〜22日で、場所は赤倉ワクイホテル。（ホテルについては後ほど） 今回はそのレポートとなります。 目的 オペチームの [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/etc/sugano-025-camp/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>RDS拡張モニタリングをデフォルト以外のIAMロールで有効化する</title>
+		<link>http://dev.classmethod.jp/cloud/aws/rds-enhanced-monitoring-manual/</link>
+		<comments>http://dev.classmethod.jp/cloud/aws/rds-enhanced-monitoring-manual/#respond</comments>
+		<pubDate>Sun, 23 Oct 2016 22:00:05 +0000</pubDate>
+		<dc:creator><![CDATA[虎塚]]></dc:creator>
+				<category><![CDATA[AWS]]></category>
+		<category><![CDATA[CloudWatch Logs]]></category>
+		<category><![CDATA[RDS]]></category>
+		<category><![CDATA[監視]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=222655</guid>
+		<description><![CDATA[こんにちは、虎塚です。 RDSの拡張モニタリングを有効にすると、DBインスタンスの詳細なOS情報をCloudWatch Logsに集約できます。 デフォルトの設定を使うなら、拡張モニタリングはAWS Management [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/cloud/aws/rds-enhanced-monitoring-manual/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Elastic StackのX-Packを試す（Watcher編）</title>
+		<link>http://dev.classmethod.jp/server-side/elasticsearch/elastic-stack-x-pack-watcher/</link>
+		<comments>http://dev.classmethod.jp/server-side/elasticsearch/elastic-stack-x-pack-watcher/#respond</comments>
+		<pubDate>Sun, 23 Oct 2016 21:30:38 +0000</pubDate>
+		<dc:creator><![CDATA[藤本 真司]]></dc:creator>
+				<category><![CDATA[Elasticsearch]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=222231</guid>
+		<description><![CDATA[検証時のX-Packはrc1です。 GAリリース時は仕様が変わっている可能性もございますのでご注意ください。 こんにちは、藤本です。 Elastic Stackもrc1までリリースされました。これからはGAリリースに向け [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/server-side/elasticsearch/elastic-stack-x-pack-watcher/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>AWSクイックスタート：Oracle DB 12c on AWS を試してみた</title>
+		<link>http://dev.classmethod.jp/cloud/aws/oracle-db-12c-on-aws/</link>
+		<comments>http://dev.classmethod.jp/cloud/aws/oracle-db-12c-on-aws/#respond</comments>
+		<pubDate>Sun, 23 Oct 2016 21:00:28 +0000</pubDate>
+		<dc:creator><![CDATA[菊池修治]]></dc:creator>
+				<category><![CDATA[AWS]]></category>
+		<category><![CDATA[CloudFormation]]></category>
+		<category><![CDATA[Oracle]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=222358</guid>
+		<description><![CDATA[こんにちは、菊池です。最近少し冷えるようになったので、寝ていると猫が布団に入ってくるようになりました。 はじめに CloudFormationのテンプレートを利用することで、エンタープライズアプリケーションを簡単にAWS [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/cloud/aws/oracle-db-12c-on-aws/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>はじめて触ったRubyでTSVをマスキング処理。</title>
+		<link>http://dev.classmethod.jp/beginners/ruby-tsv-masking/</link>
+		<comments>http://dev.classmethod.jp/beginners/ruby-tsv-masking/#respond</comments>
+		<pubDate>Sun, 23 Oct 2016 10:14:08 +0000</pubDate>
+		<dc:creator><![CDATA[takahara]]></dc:creator>
+				<category><![CDATA[初心者向け]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=222266</guid>
+		<description><![CDATA[はじめに 基幹などからデータベースにロードする際に「0000-0000-0000」を「****-****-0000」の様にマスキングしたい場合があります。 Rubyは触ったことが無かったのですが、案件にRubyが関わって [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/beginners/ruby-tsv-masking/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Windows Server 2016 の Nano Server オプションを試す «DNS編»</title>
+		<link>http://dev.classmethod.jp/cloud/aws/dns-nanoserver-windows-2016/</link>
+		<comments>http://dev.classmethod.jp/cloud/aws/dns-nanoserver-windows-2016/#respond</comments>
+		<pubDate>Sun, 23 Oct 2016 08:40:12 +0000</pubDate>
+		<dc:creator><![CDATA[こやま]]></dc:creator>
+				<category><![CDATA[AWS]]></category>
+		<category><![CDATA[OS]]></category>
+
+		<guid isPermaLink="false">http://dev.classmethod.jp/?p=222331</guid>
+		<description><![CDATA[こんにちは、ももんが大好きの小山です。みなさんいかがお過ごしでしょうか? きょうは、新しく Windows Server 2016 から利用可能になったインストールオプションであるNano Serverを使って、recu [&#8230;]]]></description>
+		<wfw:commentRss>http://dev.classmethod.jp/cloud/aws/dns-nanoserver-windows-2016/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
