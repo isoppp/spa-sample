@@ -16,13 +16,6 @@
 <div class="container">
 
   <section class="section">
-    <h4>debug</h4>
-    <label class="debugTextarea">
-      <textarea class="debugTextarea js-debugTextarea"></textarea>
-    </label>
-  </section>
-
-  <section class="section">
     <h4>input</h4>
     <div class="input-group">
       <input type="text" class="form-control" placeholder="Please Enter Url...">
@@ -33,8 +26,8 @@
   </section>
 
   <section class="section">
-    <h4>js result</h4>
-    <div class="js-jsResult"></div>
+    <h4>result detail</h4>
+    <div class="js-resultDetail"></div>
   </section>
 
   <section class="section">
@@ -42,24 +35,30 @@
     <div class="js-resultList"></div>
   </section>
 
-  <section class="section">
-    <h4>result detail</h4>
-    <div class="js-resultDetail"></div>
-  </section>
+  <div class="template js-template">
+    <h4>parts</h4>
+    <ul class="feedList list-group js-feedList">
+      <li class="list-group-item js-listItem">
+        <div href="" target="_blank" class="feedList-item js-listItem-link">
+          <div class="feedItem">
+            <div class="feedItem-title js-listItem-title">hoge</div>
+            <div class="feedItem-description js-listItem-description">fuga...</div>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <div class="feedDetail js-feedDetail">
+      <h2 class="js-feedDetail-title">記事タイトル</h2>
+      <div class="feedDetail-text js-feedDetail-description">
+        記事詳細を記載します。記事詳細を記載します。記事詳細を記載します。記事詳細を記載します。記事詳細を記載します。記事詳細を記載します。記事詳細を記載します。記事詳細を記載します。
+      </div>
+      <a href="#" target="_blank" class="feedDetail-link js-feedDetail-link">Open Original Web Site</a>
+    </div>
+  </div>
 </div>
 
-<div class="template js-template">
-  <ul class="feedList">
-    <li class="js-listItem">
-      <a href="" class="feedList-item js-listItem-link">
-        <div class="feedItem">
-          <h5 class="">hoge</h5>
-          <h5 class="feedItem-description">fuga...</h5>
-        </div>
-      </a>
-    </li>
-  </ul>
-</div>
+
 <script src="index.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
