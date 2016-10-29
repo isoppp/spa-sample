@@ -12,12 +12,6 @@
     "type": "git",
     "url": "git+https://github.com/isoppp/spa-sample.git"
   },
-  "keywords": [
-    "very",
-    "simple",
-    "spa",
-    "samples"
-  ],
   "author": "isoppp",
   "license": "MIT",
   "bugs": {
