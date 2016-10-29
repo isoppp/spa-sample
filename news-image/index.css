@@ -11,38 +11,76 @@
   border: 1px solid #ccc;
 }
 
-.debugTextarea {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-
-  width: 100%;
-}
-
 /* feed item */
 .feedList {
   list-style: none;
-  margin:0;
+  margin-bottom: 20px;
 }
 
 .feedList-item {
   display: block;
   list-style: none;
   padding: 15px;
-  border:1px solid #ddd;
+  border: 1px solid #ddd;
   color: inherit;
 }
-.feedItem:hover{
+
+.feedList-item:hover {
+  background: #eee;
+  opacity: .8;
+  cursor: pointer;
+}
+
+.feedItem:hover {
   text-decoration: none;
+}
+
+.feedItem:not(:last-child) {
+  margin-bottom: 20px;
 }
 
 .feedItem-title {
   display: inline-block;
-  width:100%;
+  width: 100%;
   font-weight: bold;
   color: #222;
+  font-size: 16px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .feedItem-description {
   color: #aaa;
+  font-size: 14px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.feedDetail {
+  padding: 20px;
+  background: #eee;
+}
+
+.feedDetail-text {
+
+}
+
+.feedDetail-link {
+  display: block;
+  margin: 16px auto 0;
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  text-align: center;
+  width: 50%;
+  background: #666;
+  color: #ddd;
+  font-weight: bold;
+}
+
+.feedDetail-link:hover {
+  opacity: .85;
+  color: #fff;
 }
