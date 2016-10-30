@@ -6,6 +6,7 @@
   "scripts": {
     "dist": "npm-run-all cpx:**",
     "cpx:jquery": "cpx ./news-jquery-sample/**/*.* ./docs/news-jquery -v",
+    "cpx:riot": "cpx ./news-riot/dist/**/*.* ./docs/news-riot -v",
     "test": "test"
   },
   "repository": {
