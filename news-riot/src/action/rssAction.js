@@ -12,6 +12,10 @@ class RssAction {
         .then((response) => {
           parser.parseString(response.data, (err, result) => {
             store.items = result.rss.channel[0].item;
+            store.items = store.items.map((elem)=> {
+              elem.read = false;
+              return elem;
+            });
             callback(Object.assign({}, store));
           });
         })
@@ -31,6 +35,7 @@ class RssAction {
   selectFeed(id){
     RiotControl.trigger(ActionTypes.selectFeed, (store)=> {
       store.currentId = id;
+      store.items[id].read = true;
       return Object.assign({}, store);
     });
   }

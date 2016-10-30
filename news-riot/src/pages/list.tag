@@ -2,7 +2,6 @@ import '../components/header.tag';
 import '../components/footer.tag';
 import '../components/pagetitle.tag';
 import '../components/rss-list.tag';
-import RssStore from "../stores/rssStore";
 
 
 <list>

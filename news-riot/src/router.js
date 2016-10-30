@@ -13,8 +13,6 @@ class Router{
     this._currentView = null;
     this._views = ['home', 'list', 'detail'];
     this._defaultView = 'home';
-    // riot.route(this._handleRoute.bind(this));
-    // riot.route.exec(this._handleRoute.bind(this));
     riot.route(this._handleRoute.bind(this));
     riot.route.start(true)
   }

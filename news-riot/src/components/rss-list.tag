@@ -1,11 +1,10 @@
-import RiotControl  from "riotcontrol"
 import RssStore from "../stores/rssStore";
 import RssAction  from "../action/rssAction"
 
 
 <rss-list>
   <ul>
-    <li class="card" onclick={click} each={ item, index in items } data-rssid={index}>
+    <li onclick={click} each={ item, index in items } data-rssid={index} class={card: true, is-read: item.read}>
       <div class="title">{ item.title }</div>
       <div class="description">{ item.description }</div>
     </li>
@@ -32,9 +31,9 @@ import RssAction  from "../action/rssAction"
       position: relative;
       display: block;
       margin-bottom: 12px;
-      border: 1px solid #aaa;
       padding: 16px;
       transition: all .1s;
+      border: 1px solid #FFbb88;
     }
 
     .card:hover {
@@ -42,6 +41,16 @@ import RssAction  from "../action/rssAction"
       border: 1px solid #E1690D;
       transition: all .1s;
       margin-left: 20px;
+      border-left:8px solid #E1690D;
+    }
+
+    .card.is-read {
+      border: 1px solid #ccc;
+      opacity: .6;
+    }
+
+    .card.is-read:hover{
+      border: 1px solid #ffddaa;
     }
 
     .title, .description {
