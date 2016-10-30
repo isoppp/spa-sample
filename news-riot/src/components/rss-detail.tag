@@ -13,6 +13,7 @@ import RssAction  from "../action/rssAction"
     const rssAction = new RssAction();
 
     this.on('mount', () => {
+      if(!RssStore.store.items.length) riot.route('home');
       this.item = RssStore.store.items[RssStore.store.currentId];
       this.update();
     });

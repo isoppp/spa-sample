@@ -14,6 +14,7 @@ import RssAction  from "../action/rssAction"
     const rssAction = new RssAction();
 
     this.on('mount', () => {
+      if(!RssStore.store.items.length) riot.route('home');
       this.items = RssStore.store.items;
       this.update();
     });
