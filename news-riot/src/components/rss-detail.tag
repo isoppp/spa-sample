@@ -26,11 +26,14 @@ import RssAction  from "../action/rssAction"
       border-left: 5px solid #222;
       padding-left: 10px;
       font-weight: bold;
+      word-break: break-all;
+      line-height: 1.3;
     }
 
     .detail {
       line-height: 1.4;
       margin-bottom: 30px;
+      word-break: break-all;
     }
 
     .link {
@@ -52,6 +55,21 @@ import RssAction  from "../action/rssAction"
       background: #222;
       transition: all .2s;
       text-decoration: none;
+    }
+
+    @media screen and (max-width: 768px) {
+      .title, .detail {
+        margin-bottom: 16px;
+      }
+
+      .title {
+        border-left: none;
+        padding-left: 0;
+      }
+
+      .detail {
+        line-height: 1.6;
+      }
     }
   </style>
 </rss-detail>

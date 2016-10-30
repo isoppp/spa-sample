@@ -34,7 +34,7 @@ module.exports = {
   postcss: [cssimport, cssnested, customProperties, autoprefixer, csswring],
   devServer: {
     contentBase: './dist/',
-    port: 8090,
+    port: 8091,
     hot: true,
     inline: true
   }

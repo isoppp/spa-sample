@@ -63,5 +63,23 @@ import RssAction  from "../action/rssAction"
       color: #888;
     }
 
+    @media screen and (max-width: 768px) {
+      .title {
+        font-size: 14px;
+        margin-bottom: 6px;
+      }
+
+      .description {
+        font-size: 12px;
+      }
+
+      .card {
+        padding: 12px;
+      }
+
+      .card:hover {
+        margin-left: 0;
+      }
+    }
   </style>
 </rss-list>
