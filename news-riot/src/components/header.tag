@@ -1,10 +1,15 @@
 <header>
   <div class="header">
     <div class="container">
-      <h1 class="title">Riot SPA Sample -RSS Leader-</h1>
+      <h1 onclick={goHome} class="title">Riot SPA Sample -RSS Leader-</h1>
     </div>
   </div>
 
+  <script>
+    this.goHome = (event) => {
+      riot.route('home');
+    }
+  </script>
   <style scoped>
     .header {
       display: block;
