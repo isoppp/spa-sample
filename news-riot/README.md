@@ -13,3 +13,6 @@ commands
 - Bundle
   - `npm run dist`
     - After, package output dist folder
+
+- gh-pages
+  - [https://isoppp.github.io/spa-sample/news-riot/](https://isoppp.github.io/spa-sample/news-riot/)
