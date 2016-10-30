@@ -12,10 +12,10 @@ module.exports = {
     app : ['./src/index.js']
   },
   output: {
-    path: __dirname + './dist/',
+    path: __dirname + '/dist/',
     filename: 'index.js'
   },
-  devtool: 'eval',
+  devtool: 'source-map',
   debug: true,
   plugins: [
     new webpack.ProvidePlugin({
@@ -24,7 +24,7 @@ module.exports = {
   ],
   module: {
     preLoaders: [
-      { test: /\.tag$/, exclude: /node_modules/, loader: 'riotjs-loader', query: { type: 'es6' } }
+      { test: /\.tag$/, exclude: /node_modules/, loader: 'riotjs-loader', query: { type: 'none' } }
     ],
     loaders: [
       { test: /\.js$|\.tag$/, exclude: /node_modules/, include: /src/, loader: 'babel-loader', query: {presets: ['es2015-riot']}, modules: 'common' },
