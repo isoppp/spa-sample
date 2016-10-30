@@ -1,7 +1,4 @@
+import 'reset-css/reset.css';
 import './css/index.css';
-
-const hoge = () =>{
-  console.log('it works!');
-};
-
-hoge();
+import 'riot';
+import './router.js';

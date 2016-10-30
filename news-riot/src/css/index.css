@@ -1,3 +1,34 @@
-#app {
-  color: red;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #222;
+  line-height: 1.2;
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Kaku Gothic ProN', '游ゴシック Medium', meiryo, sans-serif;
+}
+
+.main {
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.article {
+  background: #fefefe;
+  padding: 30px 20px;
+}
+
+a {
+  color: #57f;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8af;
+  text-decoration: underline;
 }
