@@ -9,7 +9,7 @@ const store = new class RssStore {
     };
 
     this.store = {};
-    this.store.url = 'http://infobeads.moo.jp/sample.xml';
+    this.store.url = 'https://moo-infobeads.ssl-lolipop.jp/sample.xml';
     this.store.items = [];
     this.currentId = 0;
     this.on(ActionTypes.loadRss, this._loadRss.bind(this));

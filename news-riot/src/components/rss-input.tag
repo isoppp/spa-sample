@@ -14,7 +14,7 @@ import RssAction  from "../action/rssAction"
     const rssAction = new RssAction();
 
     this.keyup = (e) => {
-      rssAction.updateUrl('http://infobeads.moo.jp/sample.xml'); //dummy
+      rssAction.updateUrl('https://moo-infobeads.ssl-lolipop.jp/sample.xml'); //dummy
       e.currentTarget.classList.toggle('is-valid', e.currentTarget.value);
     }
 
