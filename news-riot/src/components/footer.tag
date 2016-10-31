@@ -26,6 +26,6 @@
 
     .link {
       text-decoration: underline;
-    }`
+    }
   </style>
 </footer>
