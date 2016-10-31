@@ -29,70 +29,72 @@ import RssAction  from "../action/rssAction"
     RiotControl.one(RssStore.actionType.loaded, () => riot.route('list'));
   </script>
 
-  <style scoped>
-    .is-hidden{
-      display: none;
-    }
-
+  <style scoped type="scss">
     input {
-      max-width: 90%;
-      width: 480px;
+      background: #FDD;
+      border: 1px solid #DDD;
+      display: block;
+      font-size: 16px;
       height: 60px;
       margin: 0 auto 20px;
-      display: block;
+      max-width: 90%;
       padding: 10px;
-      font-size: 16px;
-      background: #ffdddd;
-      border: 1px solid #ddd;
-    }
+      width: 480px;
 
-    input:focus {
-      border: 2px solid #aaa;
-      outline: none;
-      background: #fff
-    }
+      &:focus {
+        background: #FFF;
+        border: 2px solid #AAA;
+        outline: none;
+      }
 
-    input.is-valid {
-      background: #fff;
+      &.is-valid {
+        background: #FFF;
+      }
     }
 
     button {
-      border: 2px solid #E1690D;
       background: transparent;
-      max-width: 90%;
-      width: 320px;
-      height: 30px;
-      margin: 0 auto;
+      border: 2px solid #E1690D;
+      color: #E1690D;
+      cursor: pointer;
       display: block;
       font-size: 14px;
-      color: #E1690D;
+      height: 30px;
+      margin: 0 auto;
+      max-width: 90%;
       transition: all .2s;
-      cursor: pointer;
+      width: 320px;
+
+      &:hover {
+        background: #E1690D;
+        color: #EEE;
+        transition: all .2s;
+      }
+
+      &:focus {
+        background: #FFF;
+        outline: none;
+      }
+
+      &.is-loading {
+        border: none;
+      }
     }
 
-    button:hover {
-      background: #E1690D;
-      color: #eee;
-      transition: all .2s;
+    .text {
+      &.is-hidden {
+        display: none;
+      }
     }
 
-    button:focus{
-      outline:none;
-    }
-
-    button.is-loading {
-      border:none;
-    }
-
-    button:focus{
-      background: #fff;
-    }
-
-    .loading{
+    .loading {
       height: 15px;
-      width:15px;
-      line-height:30px;
-    }
+      line-height: 30px;
+      width: 15px;
 
+      &.is-hidden {
+        display: none;
+      }
+    }
   </style>
 </rss-input>

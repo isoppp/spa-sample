@@ -10,23 +10,22 @@
 
   <style scoped>
     .footer {
-      display: block;
-      width: 100%;
+      background: #FEFEFE;
       border-top: 2px solid #444;
-      background: #fefefe;
+      display: block;
       height: 30px;
+      width: 100%;
     }
 
     .title {
       font-size: 12px;
-      text-align: right;
-      margin-right: 30px;
       line-height: 30px;
+      margin-right: 30px;
+      text-align: right;
     }
 
     .link {
       text-decoration: underline;
-    }
-
+    }`
   </style>
 </footer>

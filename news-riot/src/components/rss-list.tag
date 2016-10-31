@@ -27,50 +27,51 @@ import RssAction  from "../action/rssAction"
 
   </script>
 
-  <style scoped>
+  <style scoped type="scss">
     .card {
-      position: relative;
+      border: 1px solid #FB8;
       display: block;
       margin-bottom: 12px;
       padding: 16px;
+      position: relative;
       transition: all .1s;
-      border: 1px solid #FFbb88;
+
+      &:hover {
+        border: 1px solid #E1690D;
+        border-left: 8px solid #E1690D;
+        cursor: pointer;
+        margin-left: 20px;
+        transition: all .1s;
+      }
+
+      &.is-read {
+        border: 1px solid #CCC;
+        opacity: .6;
+
+        &:hover {
+          border: 1px solid #FDA;
+        }
+      }
     }
 
-    .card:hover {
-      cursor: pointer;
-      border: 1px solid #E1690D;
-      transition: all .1s;
-      margin-left: 20px;
-      border-left:8px solid #E1690D;
-    }
-
-    .card.is-read {
-      border: 1px solid #ccc;
-      opacity: .6;
-    }
-
-    .card.is-read:hover{
-      border: 1px solid #ffddaa;
-    }
-
-    .title, .description {
-      white-space: nowrap;
-      width: 100%;
+    .title,
+    .description {
       overflow: hidden;
       text-overflow: ellipsis;
+      white-space: nowrap;
+      width: 100%;
     }
 
     .title {
-      font-weight: bold;
-      font-size: 18px;
-      margin-bottom: 10px;
       color: #444;
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
     }
 
     .description {
-      font-size: 14px;
       color: #888;
+      font-size: 14px;
     }
 
     @media screen and (max-width: 768px) {
@@ -85,11 +86,12 @@ import RssAction  from "../action/rssAction"
 
       .card {
         padding: 12px;
-      }
 
-      .card:hover {
-        margin-left: 0;
+        &:hover {
+          margin-left: 0;
+        }
       }
     }
+
   </style>
 </rss-list>

@@ -12,11 +12,11 @@
   </script>
   <style scoped>
     .header {
-      display: block;
-      width: 100%;
       background: #444;
-      color: #fafafa;
+      color: #FAFAFA;
+      display: block;
       height: 48px;
+      width: 100%;
     }
 
     .title {

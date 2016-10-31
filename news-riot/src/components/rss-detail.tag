@@ -20,15 +20,15 @@ import RssAction  from "../action/rssAction"
 
   </script>
 
-  <style scoped>
+  <style scoped type="scss">
     .title {
-      font-size: 18px;
-      margin-bottom: 30px;
       border-left: 5px solid #222;
-      padding-left: 10px;
+      font-size: 18px;
       font-weight: bold;
-      word-break: break-all;
       line-height: 1.3;
+      margin-bottom: 30px;
+      padding-left: 10px;
+      word-break: break-all;
     }
 
     .detail {
@@ -38,28 +38,29 @@ import RssAction  from "../action/rssAction"
     }
 
     .link {
-      display: block;
-      width: 320px;
-      max-width: 100%;
       border: 1px solid #222;
-      transition: all .2s;
-      height: 40px;
-      line-height: 40px;
-      text-align: center;
-      margin: 0 auto 20px;
       color: #222;
       cursor: pointer;
-    }
-
-    .link:hover {
-      color: #fff;
-      background: #222;
+      display: block;
+      height: 40px;
+      line-height: 40px;
+      margin: 0 auto 20px;
+      max-width: 100%;
+      text-align: center;
       transition: all .2s;
-      text-decoration: none;
+      width: 320px;
+
+      &:hover {
+        background: #222;
+        color: #FFF;
+        text-decoration: none;
+        transition: all .2s;
+      }
     }
 
     @media screen and (max-width: 768px) {
-      .title, .detail {
+      .title,
+      .detail {
         margin-bottom: 16px;
       }
 
