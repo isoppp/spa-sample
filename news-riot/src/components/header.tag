@@ -1,7 +1,7 @@
 <header>
   <div class="header">
     <div class="container">
-      <h1 onclick={goHome} class="title">Riot SPA Sample -RSS Leader-</h1>
+      <h1 onclick={goHome} class="title">Riot SPA Sample -RSS Reader-</h1>
     </div>
   </div>
 
